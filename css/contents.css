@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+/*=======*/
+/* INDEX */
+/*=======*/
+
+/* index：スライダー
+-----------------------------------*/
+#slider {
+	width: 615px;
+	margin: 0 auto;
+}
+
+
+/* index：各セクション
+-----------------------------------*/
+#index-contentscolumn > section {
+	margin-top: 25px;
+}
+
+#index-contentscolumn > section > div > h2 {
+	color: #f95d1b;
+	font-size: 107%;
+	margin-bottom: 10px;
+}
+
+.comingsoon {
+	text-align: center;
+	font-size: 121%;
+	font-weight: bold;
+	margin: 40px; 0;
+}
+
+#index-column ul {
+	width: 584px;
+	overflow: hidden;
+}
+
+#index-column ul li {
+	float: left;
+	width: 276px;
+	margin-right: 15px;
+}
+
+#index-column ul li:nth-child(2) {
+	width: 276px;
+	border-left: solid 2px #005;
+	padding-left: 15px;
+	margin-right: 0;
+}
+
+#index-column ul li h3 {
+	font-size: 107%;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+#index-column ul li p.post {
+	margin-bottom: 10px;
+}
+
+
+/*==========*/
+/* 新着情報 */
+/*==========*/
+#news h1 {
+	padding: 8px 13px 10px;
+	background-color: #005;
+}
+
+#news dl dt {
+	margin-top: 15px;
+}
+
+#news dl dt:first-child {
+	margin-top: 0;
+}
+
+#news .entry-title {
+	color: #3b5988;
+	font-size: 154%;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+#news .entry-data {
+}
+
+
+
+/*==================*/
+/* 大学からのご案内 */
+/*==================*/
+#info h1 {
+	padding: 8px 13px 10px;
+	background-color: #005;
+}
+
+#info .sns-btn {
+	margin: 15px 0 20px;
+	overflow: hidden;
+}
+
+#info .sns-btn .wp_social_bookmarking_light {
+	float: right;
+}
+
+#info h2 {
+	color: #3b5988;
+	font-size: 154%;
+	font-weight: bold;
+	margin: 40px 0 15px;
+}
+
+#info div + h2 {
+	margin-top: 0;
+}
+
+#info a:link,
+#info a:visited {
+	color: #e55c26;
+	text-decoration: underline;
+}
+
+#info a:hover,
+#info a:active {
+	color: #e55c26;
+	text-decoration: none;
+}
+
+
+/*========*/
+/* コラム */
+/*========*/
+/* サイド */
+#side-archive {
+	width: 258px;
+	margin-bottom: 25px;
+}
+
+#side-archive h1 {
+	font-size: 114%;
+	font-weight: bold;
+}
+
+#side-archive ul li {
+	margin-top: 10px;
+}
+
+#side-archive ul li p.post {
+	font-size: 94%;
+}
+
+#side-archive > p {
+	text-align: right;
+	margin-top: 10px;
+}
+
+#side-archive > p a:link,
+#side-archive > p a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+#side-archive > p a:hover,
+#side-archive > p a:active {
+	color: #e55c26;
+	text-decoration: none;
+}
+
+
+#column .sns-btn {
+	margin: 15px 0 20px;
+	overflow: hidden;
+}
+
+#column .sns-btn .wp_social_bookmarking_light {
+	float: right;
+}
+
+#column .entry-title {
+	color: #3b5988;
+	font-size: 154%;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+#column .entry-post {
+	text-align: right;
+}
+
+
+/* 投稿記事
+-----------------------------------*/
+.entry-body .entry-content p {
+	margin: 15px 0;
+}
+
+.entry-body .entry-content h1 {
+	font-size: 2.4em;
+	border: none;
+}
+
+.entry-body .entry-content h2 {
+	font-size: 2em;
+}
+
+.entry-body .entry-content h3 {
+	font-size: 1.6em;
+}
+
+.entry-body .entry-content h4 {
+	font-size: 1.4em;
+}
+
+.entry-body .entry-content h5 {
+	font-size: 1em;
+}
+
+.entry-body .entry-content h6 {
+	font-size: 0.9em;
+}
+
+.entry-body .entry-content h1,
+.entry-body .entry-content h2,
+.entry-body .entry-content h3,
+.entry-body .entry-content h4,
+.entry-body .entry-content h5,
+.entry-body .entry-content h6 {
+	margin: 10px 0px !important;
+}
+
+.entry-body .entry-content ul,
+.entry-body .entry-content ol {
+	margin: 10px 0 15px 30px;
+}
+
+.entry-body .entry-content ul li {
+	list-style: disc;
+}
+
+.entry-body .entry-content ul ul,
+.entry-body .entry-content ol ol,
+.entry-body .entry-content ul ol,
+.entry-body .entry-content ol ul {
+	margin-bottom: 0;
+}
+
+.entry-body .entry-content blockquote {
+	font-style: italic;
+	padding: 0 30px;
+}
+
+.entry-body .entry-content blockquote cite,
+.entry-body .entry-content blockquote em,
+.entry-body .entry-content blockquote i {
+	font-style: normal;
+}
+
+/* 投稿画像 */
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attachment img {
+	/*max-width: 100%;
+	height: auto;*/
+}
+
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 12px;
+}
+
+.wp-caption {
+	text-align: center;
+}
+
+p.wp-caption-text {
+	margin: 0;
+}

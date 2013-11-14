@@ -1,0 +1,398 @@
+@charset "utf-8";
+
+/*========*/
+/* ヘッダ */
+/*========*/
+header {
+	width: 948px;
+	margin: 0 auto;
+	background-color: #fff;
+	position: relative;
+
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	behavior: url(/js/PIE.htc);
+}
+
+#headercolumn {
+	width: 900px;
+	margin: 0 auto;
+	padding: 10px 0 0;
+	text-align: left;
+	overflow: hidden;
+}
+
+#headercolumn p {
+	margin-bottom: 15px;
+}
+
+/* ヘッダ：グローバルナビゲーション
+-----------------------------------*/
+#headercolumn nav#gnavi {
+	width: 596px;
+	float: left;
+	margin-top: 15px;
+}
+
+#headercolumn nav#gnavi ul {
+	width: 596px;
+	overflow: hidden;
+}
+
+#headercolumn nav#gnavi ul li {
+	float: left;
+	margin-right: 49px;
+}
+
+#headercolumn nav#gnavi ul li:last-child {
+	margin-right: 0;
+}
+
+/* ヘッダ：検索
+-----------------------------------*/
+#searchcolumn {
+	width: 255px;
+	float: right;
+	margin-top: 15px;
+}
+
+#searchcolumn #searchform {
+	position: relative;
+}
+
+#searchcolumn #searchform label {
+	display: none;
+}
+
+#searchcolumn #searchform #s {
+	width: 196px;
+	height: 16px;
+	border: solid 1px #000;
+	line-height: 16px;
+}
+
+#searchcolumn #searchform #searchsubmit {
+	position: absolute;
+	top: 0;
+	left: 205px;
+	width: 50px;
+	height: 20px;
+	z-index: 1;
+}
+
+
+/*========*/
+/* フッタ */
+/*========*/
+footer {
+	width: 948px;
+	margin: 20px auto 0;
+	padding: 0 0 40px;
+	clear: both;
+}
+
+
+/*========*/
+/* サイド */
+/*========*/
+
+/* サイド：インフォメーション
+-----------------------------------*/
+ul#side-info {
+	width: 258px;
+}
+
+/* サイド：Facebook
+-----------------------------------*/
+#side-sns {
+	width: 254px;
+	margin-bottom: 20px;
+}
+
+#side-sns h1 {
+	padding: 8px 13px 10px;
+	background-color: #005;
+}
+
+/* サイド：新着情報
+-----------------------------------*/
+#side-news {
+	width: 254px;
+	margin-bottom: 20px;
+}
+
+#side-news h1 {
+	padding: 8px 13px 10px;
+	background-color: #005;
+	position: relative;
+}
+
+#side-news p {
+	position: absolute;
+	top: 11px;
+	right: 10px;
+}
+
+#side-news p a:link,
+#side-news p a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#side-news p a:hover,
+#side-news p a:active {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#news-box {
+	height: 160px;
+	padding-right: 5px;
+	overflow: auto;
+}
+
+#news-box dl dt {
+	margin-top: 15px;
+}
+
+#news-box dl dt:first-child {
+	margin-top: 0;
+}
+
+#news-box a:link,
+#news-box a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+#news-box a:hover,
+#news-box a:active {
+	color: #e55c26;
+	text-decoration: none;
+}
+
+
+/*================*/
+/* ページの先頭へ */
+/*================*/
+.ptop {
+	margin: 0 auto;
+	padding-top: 25px;
+	clear: both;
+}
+
+.ptop p {
+	text-align: right;
+}
+
+.ptop a:link,
+.ptop a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+.ptop a:hover,
+.ptop a:active {
+	color: #e55c26;
+	text-decoration: none;
+}
+
+
+/*============*/
+/* コンテンツ */
+/*============*/
+
+/* レイアウト
+-----------------------------------*/
+#container {
+	width: 948px;
+	margin: 20px auto 0;
+	background-color: #fff;
+	position: relative;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	behavior: url(/js/PIE.htc);
+}
+
+#maincolumn {
+	width: 900px;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+/* 1カラム */
+#one-maincolumn {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* 2カラム */
+#two-maincolumn {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	overflow: hidden;
+}
+
+#two-maincolumn-main {
+	width: 615px;
+}
+
+#two-maincolumn-side {
+	width: 258px;
+}
+
+/* コンテンツカラム */
+#index-contentscolumn,
+#contentscolumn {
+	width: 615px;
+	position: relative;
+	line-height: 1.6;
+}
+
+
+/*============*/
+/* 共通・汎用 */
+/*============*/
+
+/* タイトル
+-----------------------------------*/
+.titlecolumn {
+	width: 611px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+.titlecolumn > h1 {
+	float: left;
+	width: 280px;
+	line-height: 1.0;
+}
+
+.titlecolumn > p {
+	float: right;
+	width: 302px;
+	margin-top: 10px;
+	padding-right: 13px;
+	line-height: 1.3;
+	font-size: 107%;
+	font-weight: bold;
+}
+
+
+/* 汎用カラム
+-----------------------------------*/
+.multicolumn,
+.multilist {
+	overflow: hidden !important;
+}
+
+.multicolumn-left {
+	float: left;
+}
+
+.multicolumn-right {
+	float: right;
+}
+
+.multilist li {
+	float: left;
+}
+
+
+/* カラム幅
+-----------------------------------*/
+.w900 { width: 900px;}
+
+
+/* 汎用BOX
+-----------------------------------*/
+/* ラインありBOX */
+.boxb {
+	background-color: #fff;
+	border: solid 2px #005;
+	position: relative;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	behavior: url(/js/PIE.htc);
+}
+
+/* ラインありBOXの中 */
+.box {
+	padding: 15px 13px 20px;
+}
+
+
+/* リスト、アイコン
+-----------------------------------*/
+
+
+/* テーブル
+-----------------------------------*/
+
+
+/* SNSボタン（WPプラグイン）
+-----------------------------------*/
+.wp_social_bookmarking_light{
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.wp_social_bookmarking_light div{
+    float: left !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 5px 0px 0 !important;
+    height: 23px !important;
+    text-indent: 0 !important;
+}
+
+.wp_social_bookmarking_light img{
+    border: 0 !important;
+    padding: 0;
+    margin: 0;
+    vertical-align: top !important;
+}
+
+.wp_social_bookmarking_light_clear{
+    clear: both !important;
+}
+
+.wsbl_twitter{
+    width: 100px;
+}
+
+
+/* ページナビ（WP）
+-----------------------------------*/
+.wp-pagenavi,
+.navigation {
+	clear: both;
+	margin: 40px auto 0;
+	width: 100%;
+	text-align: center;
+}
+
+.wp-pagenavi a {
+	padding: 3px 5px;
+	margin: 2px;
+	color: #333;
+}
+
+.wp-pagenavi a:hover {
+	color: #f00;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
