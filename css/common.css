@@ -107,7 +107,7 @@ ul#side-info {
 -----------------------------------*/
 #side-sns {
 	width: 254px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 #side-sns h1 {
@@ -115,11 +115,15 @@ ul#side-info {
 	background-color: #005;
 }
 
+#side-sns .box {
+	padding: 0;
+}
+
 /* サイド：新着情報
 -----------------------------------*/
 #side-news {
 	width: 254px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 #side-news h1 {
@@ -147,7 +151,7 @@ ul#side-info {
 }
 
 #news-box {
-	height: 160px;
+	height: 162px;
 	padding-right: 5px;
 	overflow: auto;
 }
