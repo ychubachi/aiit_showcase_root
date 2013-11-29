@@ -31,25 +31,29 @@
 	margin: 40px; 0;
 }
 
-#index-column ul {
+#index-column ul,
+#index-channel ul {
 	width: 584px;
 	overflow: hidden;
 }
 
-#index-column ul li {
+#index-column ul li,
+#index-channel ul li {
 	float: left;
 	width: 276px;
 	margin-right: 15px;
 }
 
-#index-column ul li:nth-child(2) {
+#index-column ul li:nth-child(2),
+#index-channel ul li:nth-child(2) {
 	width: 276px;
 	border-left: solid 2px #005;
 	padding-left: 15px;
 	margin-right: 0;
 }
 
-#index-column ul li h3 {
+#index-column ul li h3,
+#index-channel ul li h3 {
 	font-size: 107%;
 	font-weight: bold;
 	line-height: 1.3;
