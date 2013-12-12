@@ -31,6 +31,13 @@
 	margin: 40px; 0;
 }
 
+/* KEYWORDS */
+#index-keywords .multicolumn img {
+	border: solid 2px #f95d1b;
+	max-width: 170px;
+}
+
+/* COLUMN,CHANNEL */
 #index-column ul,
 #index-channel ul {
 	width: 584px;
@@ -91,7 +98,6 @@
 }
 
 
-
 /*==================*/
 /* 大学からのご案内 */
 /*==================*/
@@ -130,6 +136,90 @@
 #info a:active {
 	color: #e55c26;
 	text-decoration: none;
+}
+
+
+/*============*/
+/* キーワード */
+/*============*/
+#keywordscolumn {
+	width: 585px;
+	overflow: hidden;
+}
+
+#keywordscolumn #entrycolumn,
+#keywordscolumn #categorycolumn {
+	float: left;
+	width: 408px;
+}
+
+/* サイド */
+#keywordscolumn #side-keywords {
+	float: right;
+	width: 150px;
+	padding-left: 13px;
+	border-left: solid 1px #999;
+}
+
+#keywordscolumn #side-keywords .side-list {
+	margin-top: 25px;
+}
+
+#keywordscolumn #side-keywords .side-list:first-child {
+	margin-top: 0;
+}
+
+#keywordscolumn #side-keywords .side-list h2 {
+	font-size: 114%;
+	font-weight: bold;
+}
+
+#keywordscolumn #side-keywords .side-list ul li {
+	margin-top: 10px;
+}
+
+/* エントリー */
+#keywords .sns-btn {
+	margin: 15px 0 20px;
+	overflow: hidden;
+}
+
+#keywords .sns-btn .wp_social_bookmarking_light {
+	float: right;
+}
+
+#keywords .entry-title {
+	color: #3b5988;
+	font-size: 154%;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+/* カテゴリー */
+#keywords #categorycolumn #category-title {
+	font-size: 114%;
+	font-weight: bold;
+}
+
+#keywords #categorycolumn #category-title span {
+	color: #3b5988;
+}
+
+#keywords #categorycolumn .entry-body {
+	padding-bottom: 15px;
+	margin-top: 15px;
+	border-bottom: solid 1px #999;
+}
+
+#keywords #categorycolumn .entry-title {
+	color: #3b5988;
+	font-size: 154%;
+	font-weight: bold;
+	margin: 0;
+}
+
+#keywords #categorycolumn .entry-content p {
+	margin: 0;
 }
 
 
@@ -172,7 +262,7 @@
 	text-decoration: none;
 }
 
-
+/* エントリー */
 #column .sns-btn {
 	margin: 15px 0 20px;
 	overflow: hidden;
@@ -308,3 +398,30 @@ img.aligncenter {
 p.wp-caption-text {
 	margin: 0;
 }
+
+
+/*============*/
+/* ページナビ */
+/*============*/
+
+.wp-pagenavi {
+	clear: both;
+	margin: 30px auto 0;
+	width: 585px;
+	text-align: center;
+}
+
+.wp-pagenavi a {
+	padding: 3px 5px;
+	margin: 2px;
+	color: #333;
+}
+
+.wp-pagenavi a:hover {
+	color: #f00;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+

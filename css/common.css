@@ -21,10 +21,42 @@ header {
 	padding: 10px 0 0;
 	text-align: left;
 	overflow: hidden;
+	position: relative;
 }
 
 #headercolumn p {
 	margin-bottom: 15px;
+}
+
+/* ヘッダ：ナビゲーション
+-----------------------------------*/
+#headercolumn #hnavi {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	font-size: 121%;
+	overflow: hidden;
+}
+
+#headercolumn #hnavi li {
+	float: left;
+	margin-right: 20px;
+}
+
+#headercolumn #hnavi li:last-child {
+	margin-right: 0;
+}
+
+#headercolumn #hnavi a:link,
+#headercolumn #hnavi a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+#headercolumn #hnavi a:hover,
+#headercolumn #hnavi a:active {
+	color: #e55c26;
+	text-decoration: none;
 }
 
 /* ヘッダ：グローバルナビゲーション
@@ -101,6 +133,13 @@ footer {
 -----------------------------------*/
 ul#side-info {
 	width: 258px;
+}
+
+/* サイド：バナー
+-----------------------------------*/
+ul#side-banner {
+	width: 258px;
+	margin-bottom: 25px;
 }
 
 /* サイド：Facebook
@@ -315,7 +354,10 @@ ul#side-info {
 -----------------------------------*/
 .w120 { width: 120px;}
 .w146 { width: 146px;}
+.w174 { width: 174px;}
 .w276 { width: 276px;}
+.w395 { width: 395px;}
+.w584 { width: 584px;}
 .w900 { width: 900px;}
 
 
