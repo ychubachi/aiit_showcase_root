@@ -37,6 +37,12 @@
 	max-width: 170px;
 }
 
+#index-keywords h3 {
+	font-size: 130%;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
 /* COLUMN,CHANNEL */
 #index-column ul,
 #index-channel ul {
