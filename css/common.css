@@ -162,6 +162,7 @@ ul#side-banner {
 -----------------------------------*/
 #side-news {
 	width: 254px;
+	height: 149px;
 	margin-bottom: 25px;
 }
 
@@ -190,7 +191,7 @@ ul#side-banner {
 }
 
 #news-box {
-	height: 162px;
+	height: 82px;
 	padding-right: 5px;
 	overflow: auto;
 }
