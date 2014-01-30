@@ -36,7 +36,7 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: 0px;
+	bottom: -6px;
 	width: 100%;
 
 	/*ie6*/
