@@ -1,0 +1,454 @@
+@charset "utf-8";
+
+/* default css 
+-----------------------------------*/
+/*==========*/
+/* リセット */
+/*==========*/
+body {
+	line-height: 1;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 100%;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+}
+
+dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+fieldset {
+	border: none;
+}
+
+input, textarea, select, label {
+	font-size: 100%;
+	vertical-align: middle;
+}
+
+textarea {
+	overflow: auto;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+a {
+	display: block;
+}
+
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+
+/*==========*/
+/* 基本設定 */
+/*==========*/
+html {
+	-webkit-text-size-adjust: none; /* フォントサイズ自動調整OFF */
+	font-size: 62.5%; /* 10/16=0.625 10px相当 */
+}
+
+body {
+	text-align: center;
+	font-family: ArialMT, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', sans-serif;
+	font-size: 1.6rem; /* 12px */
+	line-height: 1.5;
+	color: #333;
+}
+
+a {
+	color: #3b5988;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.3); /* タップ時の背景色 */
+}
+
+
+/*==============*/
+/* 基本汎用設定 */
+/*==============*/
+/* 太字 */
+.bold { font-weight: bold;}
+
+/* 回り込み */
+.float-l { float: left;}/* 左 */
+.float-r { float: right;}/* 右 */
+
+/* 回り込み解除 */
+.clear { clear: both;}
+
+/* 位置 */
+.left { text-align: left !important;}/* 左 */
+.right { text-align: right !important;}/* 右 */
+.center { text-align: center !important;}/* 中央 */
+.vtop { vertical-align: top !important;}/* 上 */
+.vmiddle { vertical-align: middle !important;}/* 中央 */
+.vbottom { vertical-align: bottom !important;}/* 下 */
+
+/* フォントカラー */
+.col-black { color: #333333 !important;}/* 黒（デフォルト） */
+.col-red { color: #FF0000 !important;}/* 赤 */
+.col-reds { color: #FF0000 !important; font-weight: bold !important;}/* 赤強調 */
+
+/* フォントサイズ75%（12px相当）を基準に */
+.f11 { font-size: 1.1rem;}/* 11px相当 */
+.f12 { font-size: 1.2rem;}/* 12px相当 */
+.f13 { font-size: 1.3rem;}/* 13px相当 */
+.f14 { font-size: 1.4rem;}/* 14px相当 */
+.f15 { font-size: 1.5rem;}/* 15px相当 */
+.f16 { font-size: 1.6rem;}/* 16px相当 */
+.f17 { font-size: 1.7rem;}/* 17px相当 */
+.f18 { font-size: 1.8rem;}/* 18px相当 */
+.f19 { font-size: 1.9rem;}/* 19px相当 */
+.f20 { font-size: 2.0rem;}/* 20px相当 */
+.f21 { font-size: 2.1rem;}/* 21px相当 */
+.f22 { font-size: 2.2rem;}/* 22px相当 */
+.f23 { font-size: 2.3rem;}/* 23px相当 */
+.f24 { font-size: 2.4rem;}/* 24px相当 */
+.f25 { font-size: 2.5rem;}/* 25px相当 */
+.f26 { font-size: 2.6rem;}/* 26px相当 */
+.f00 { font-size: 0;}/*リセット*/
+
+/* 行間 */
+.lh10 { line-height: 1.0;}
+.lh11 { line-height: 1.1;}
+.lh12 { line-height: 1.2;}
+.lh13 { line-height: 1.3;}
+.lh14 { line-height: 1.4;}
+.lh15 { line-height: 1.5;}
+.lh16 { line-height: 1.6;}
+.lh17 { line-height: 1.7;}
+.lh18 { line-height: 1.8;}
+.lh19 { line-height: 1.9;}
+.lh20 { line-height: 2.0;}
+
+
+/*==================*/
+/* サイト用汎用設定 */
+/*==================*/
+
+/* ぶら下げインデント
+-----------------------------------*/
+.indent {
+	margin-left: 1em;
+	text-indent: -1em;
+}
+
+
+/*============*/
+/* サイト設定 */
+/*============*/
+
+/* ヘッダ
+-----------------------------------*/
+header {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+header p {
+	font-size: 0.9rem;
+	line-height: 1.2;
+	margin-bottom: 5px;
+}
+
+
+/* フッタ
+-----------------------------------*/
+footer {
+	width: 100%;
+	padding-top: 20px;
+	clear: both;
+}
+
+footer a {
+	color: #333;
+	text-decoration: underline;
+}
+
+footer section {
+	padding: 0 10px 20px;
+}
+
+footer p.ptop {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+footer p#copy {
+	font-size: 1.1rem;
+}
+
+footer ul#pcsite {
+	text-align: left;
+}
+
+footer ul#pcsite li {
+	background-color: #010066;
+}
+
+footer ul#pcsite li a {
+	padding: 10px 40px 10px 10px;
+	position: relative;
+}
+
+footer ul#pcsite li a::before {
+/*右：右向き三角 */
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 0;
+	height: 0;
+	margin-top: -6px;
+	border-top: solid 8px transparent;
+	border-right: solid 0 transparent;
+	border-bottom: solid 8px transparent;
+	border-left: solid 12px #fff;
+}
+
+
+/* 共通アコーディオン：タグ
+-----------------------------------*/
+#side-tag {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#side-tag p.tag-title {
+	display: block;
+	color: #fff;
+	font-size: 2.0rem;
+	font-weight: bold;
+	background-color: #010066;
+	margin-bottom: 10px;
+}
+
+#side-tag .tag-title {
+	margin-bottom: 1px;
+	padding: 10px;
+	background-color: #010066;
+}
+
+#side-tag .tag-title p {
+	display: block;
+	color: #fff;
+	font-size: 2.0rem;
+	font-weight: bold;
+	position: relative;
+}
+
+#side-tag .tag-title p::before {
+/*右：丸*/
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+#side-tag .tag-title p::after {
+/*右：下向き三角*/
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	width: 0;
+	height: 0;
+	margin-top: -6px;
+	border-top: solid 15px #010066;
+	border-right: solid 10px transparent;
+	border-bottom: solid 0 transparent;
+	border-left: solid 10px transparent;
+}
+
+#side-tag .tag-title.open p::after {
+/*右：上向き三角*/
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	width: 0;
+	height: 0;
+	margin-top: -9px;
+	border-top: solid 0 transparent;
+	border-right: solid 10px transparent;
+	border-bottom: solid 15px #010066;
+	border-left: solid 10px transparent;
+}
+
+#side-tag .tag-list ul li:last-child {
+	margin-bottom: 20px;
+}
+
+/* タグ体裁の読み込み */
+#side-tag .tag-list ul li {
+	border-bottom: solid 1px #888;
+}
+
+#side-tag .tag-list ul li a {
+	padding: 10px;
+	position: relative;
+	color: #333;
+}
+
+#side-tag .tag-list ul li a h3 {
+	color: #3453aa;
+}
+
+#side-tag .tag-list ul li a div {
+	overflow: hidden;
+}
+
+#side-tag .tag-list ul li a div figure {
+	float: right;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 90px;
+	margin: 0;
+	padding-left: 10px;
+}
+
+#side-tag .tag-list ul li a div figure img {
+	width: 100%;
+}
+
+#side-tag .tag-list ul li a div p {
+	font-size: 1.2rem;
+}
+
+#side-tag .tag-list ul li a div p span {
+	color: #3453aa;
+}
+
+
+/* SNSボタンレイアウト
+-----------------------------------*/
+.sns-btn {
+	margin: 20px 0 0;
+	overflow: hidden;
+}
+
+.sns-btn .wp_social_bookmarking_light {
+	/*float: right;*/
+}
+
+
+/* SNSボタン（WPプラグイン）
+-----------------------------------*/
+.wp_social_bookmarking_light{
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.wp_social_bookmarking_light div{
+    float: left !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 5px 0px 0 !important;
+    height: 23px !important;
+    text-indent: 0 !important;
+}
+
+.wp_social_bookmarking_light img{
+    border: 0 !important;
+    padding: 0;
+    margin: 0;
+    vertical-align: top !important;
+}
+
+.wp_social_bookmarking_light_clear{
+    clear: both !important;
+}
+
+.wsbl_twitter{
+    width: 100px;
+}
+
+
+/* ページナビ（WP）
+-----------------------------------*/
+.wp-pagenavi,
+.navigation {
+	clear: both;
+	margin: 40px auto 0;
+	width: 100%;
+	text-align: center;
+}
+
+.wp-pagenavi a {
+	padding: 3px 5px;
+	margin: 2px;
+	/*color: #333;*/
+	display: inline-block;
+}
+
+.wp-pagenavi a:hover {
+	/*color: #f00;*/
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+
+.navigation a {
+	display: inline-block;
+}

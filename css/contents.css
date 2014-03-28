@@ -18,11 +18,12 @@
 	margin-top: 25px;
 }
 
+/* 2014.2.22不要削除
 #index-contentscolumn > section > div > h2 {
 	color: #f95d1b;
 	font-size: 107%;
 	margin-bottom: 10px;
-}
+}*/
 
 .comingsoon {
 	text-align: center;
@@ -77,31 +78,43 @@
 }
 
 
-/*==========*/
-/* 新着情報 */
-/*==========*/
-#news h1 {
-	padding: 8px 13px 10px;
-	background-color: #005;
-}
-
-#news dl dt {
-	margin-top: 15px;
-}
-
-#news dl dt:first-child {
-	margin-top: 0;
-}
-
-#news .entry-title {
+/*=======*/
+/* ABOUT */
+/*=======*/
+#about .box h2 {
 	color: #3b5988;
 	font-size: 154%;
 	font-weight: bold;
-	margin: 0 0 10px;
+	margin: 0 0 15px;
 }
 
-#news .entry-data {
+#about .box p {
+	margin-bottom: 15px;
 }
+
+#about ul {
+	overflow: hidden;
+}
+
+#about ul li {
+	float: left;
+	margin-right: 13px;
+}
+
+#about ul li:last-child {
+	margin-right: 0;
+}
+
+#about ul li {
+	color: #3b5988;
+	font-size: 77%;
+}
+
+#about ul li img {
+	margin-bottom: 5px;
+}
+
+
 
 
 /*==================*/
@@ -110,15 +123,6 @@
 #info h1 {
 	padding: 8px 13px 10px;
 	background-color: #005;
-}
-
-#info .sns-btn {
-	margin: 15px 0 20px;
-	overflow: hidden;
-}
-
-#info .sns-btn .wp_social_bookmarking_light {
-	float: right;
 }
 
 #info h2 {
@@ -145,30 +149,24 @@
 }
 
 
-/*============*/
-/* キーワード */
-/*============*/
-#keywordscolumn {
-	width: 585px;
-	overflow: hidden;
+/*==========*/
+/* 新着情報 */
+/*==========*/
+#news h1 {
+	padding: 8px 13px 10px;
+	background-color: #005;
 }
 
-#keywordscolumn #categorycolumn {
-	float: left;
-	width: 408px;
+#news dl dt {
+	margin-top: 15px;
+}
+
+#news dl dt:first-child {
+	margin-top: 0;
 }
 
 /* エントリー */
-#keywords .sns-btn {
-	margin: 15px 0 20px;
-	overflow: hidden;
-}
-
-#keywords .sns-btn .wp_social_bookmarking_light {
-	float: right;
-}
-
-#keywords .entry-title {
+#news .entry-title {
 	color: #3b5988;
 	font-size: 154%;
 	font-weight: bold;
@@ -180,38 +178,6 @@
 	margin-top: 25px;
 }
 
-/* カテゴリー */
-#keywords #categorycolumn #category-title {
-	font-size: 114%;
-	font-weight: bold;
-}
-
-#keywords #categorycolumn #category-title span {
-	color: #3b5988;
-}
-
-#keywords #categorycolumn .entry-body {
-	padding-bottom: 15px;
-	margin-top: 15px;
-	border-bottom: solid 1px #999;
-}
-
-#keywords #categorycolumn .entry-title {
-	color: #3b5988;
-	font-size: 154%;
-	font-weight: bold;
-	margin: 0;
-}
-
-#keywords #categorycolumn .entry-content p {
-	margin: 0;
-}
-
-
-/*========*/
-/* コラム */
-/*========*/
-/* サイド */
 #side-archive {
 	width: 258px;
 	margin-bottom: 25px;
@@ -247,16 +213,61 @@
 	text-decoration: none;
 }
 
-/* エントリー */
-#column .sns-btn {
-	margin: 15px 0 20px;
+
+/*============*/
+/* キーワード */
+/*============*/
+#keywordscolumn {
+	width: 585px;
 	overflow: hidden;
 }
 
-#column .sns-btn .wp_social_bookmarking_light {
-	float: right;
+#keywordscolumn #categorycolumn {
+	float: left;
+	width: 408px;
 }
 
+/* エントリー */
+#keywords .entry-title {
+	color: #3b5988;
+	font-size: 154%;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+/* カテゴリー */
+/* 2014.3.4不要削除
+#keywords #categorycolumn #category-title {
+	font-size: 114%;
+	font-weight: bold;
+}
+
+#keywords #categorycolumn #category-title span {
+	color: #3b5988;
+}*/
+
+#keywords #categorycolumn .entry-body {
+	padding-bottom: 15px;
+	margin-top: 15px;
+	border-bottom: solid 1px #999;
+}
+
+#keywords #categorycolumn .entry-title {
+	color: #3b5988;
+	font-size: 154%;
+	font-weight: bold;
+	margin: 0;
+}
+
+#keywords #categorycolumn .entry-content p {
+	margin: 0;
+}
+
+
+/*========*/
+/* コラム */
+/*========*/
+/* エントリー */
 #column .entry-title {
 	color: #3b5988;
 	font-size: 154%;
@@ -269,17 +280,9 @@
 }
 
 
-
-#column .entry-title {
-	color: #3b5988;
-	font-size: 154%;
-	font-weight: bold;
-	margin: 0 0 10px;
-}
-
-/*========*/
-/* コラム */
-/*========*/
+/*============*/
+/* チャンネル */
+/*============*/
 /* エントリー */
 #channel .entry-title {
 	color: #3b5988;
@@ -288,22 +291,13 @@
 	margin: 0 0 10px;
 }
 
-#channel.sns-btn {
-	margin: 15px 0 20px;
-	overflow: hidden;
-}
 
-#channel .sns-btn .wp_social_bookmarking_light {
-	float: right;
-}
-
-
-
-
-/* 投稿記事
------------------------------------*/
+/*==========*/
+/* 投稿記事 */
+/*==========*/
 .entry-body .entry-content p {
 	margin: 15px 0;
+	text-indent: 1em;
 }
 
 .entry-body .entry-content h1 {
@@ -338,6 +332,7 @@
 .entry-body .entry-content h5,
 .entry-body .entry-content h6 {
 	margin: 10px 0px !important;
+	color: #3b7db8 !important;
 }
 
 .entry-body .entry-content ul,
@@ -354,6 +349,18 @@
 .entry-body .entry-content ul ol,
 .entry-body .entry-content ol ul {
 	margin-bottom: 0;
+}
+
+.entry-body .entry-content dl {
+	margin: 10px 0 15px;
+}
+
+.entry-body .entry-content dl dt {
+	font-size: 1.4em;
+}
+
+.entry-body .entry-content dl dd {
+	text-indent: 2em;
 }
 
 .entry-body .entry-content blockquote {
